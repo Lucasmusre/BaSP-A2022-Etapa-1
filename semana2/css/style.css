@@ -1,0 +1,123 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* border: red solid; */
+}
+body{
+    position: relative;
+    width: 100%;
+    height: ;
+}
+header{
+    background-color: #373867 ;
+
+}
+.logo{
+   width: 86px; 
+   height: 72px;
+   position: relative;
+   top: 25px;
+   left: 35px;
+   border-radius: 10px;
+}
+h1{
+    font-size: 60px;
+    position: relative;
+    left: 550px;
+    bottom: 50px;
+    align-items: center;
+    color: white;
+}
+
+nav{
+    position: absolute;
+    font-size: 20px;
+}
+a{    text-decoration: none; 
+}
+.container-one{
+    background-color: #C4C4C4;
+    text-align: center;
+    width: 360px;
+    height: 770px;
+}
+.container-menu{
+    border-bottom: black solid;
+}
+.container-info{
+    padding: 12px;
+    border-bottom: black solid;
+}
+.menu-link{
+    display: block;
+    padding: 15px;
+    width: 360px;
+    height: 100px;
+}
+.search{
+    width: 28px;
+    height: 22px;
+}
+.space{
+    width: 306px;
+}
+.conteiner-2{
+    position: absolute;
+}
+.img-1{
+    width: 500px;
+    height: 350px;
+    top: 30px;   
+}
+.trackgenix{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    bottom: 750px;
+    left: 300px;
+    text-decoration : underline
+}
+.conteiner-imgtext{
+    position: relative;
+    bottom: 700px;
+    left: 400px;
+    border-bottom:  solid black;
+}
+.conteiner-text1{
+   width: 550px;
+}
+.keep{
+    font-size: 30px;
+}
+
+.img-2{
+    width: 128px;
+    height: 145px;
+}
+.img-3{
+    width: 128px;
+    height: 145px  
+}
+
+.conteiner-img2{
+position: relative;
+top: -1161px;
+left: 1000px;
+}
+.conteiner-text2{
+    position: relative;
+    bottom: 1300px;
+    width: 200px;
+    left: 1150px;
+}
+.keep1{
+    font-size: 25px;
+    line-height: 10x;
+}
+.p1{
+
+}
+
