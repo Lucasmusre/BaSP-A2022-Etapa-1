@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: red solid;
+  /* border: red solid; */
 }
 .logo {
   width: 86px;
@@ -168,7 +168,6 @@ a {
      position: relative;
      top: 245px; 
     left: 355px; 
-    border-bottom: black solid;
     width: 100%;
     height: 700px;
 }
@@ -254,4 +253,43 @@ a {
     position: relative;
     left: 120px;
     top:40px;
+}
+.conteiner-getintouch{
+  border-bottom: black solid;
+  position: relative;
+  left: 355px;
+  top:240px;
+  height: 370px;
+}
+.getintouch{
+  font-size: 80px;
+  text-align: center;
+  position: relative;
+  right: 180px;
+  line-height: 120px;
+}
+.nameemail{
+  height: 40px;
+  width: 550px;
+  position: relative;
+  left: 500px;
+}
+.area{
+  font-size: 25px;
+  position: relative;
+  left: 500px;}
+  
+.recourse-area{
+  height: 40px;
+  width: 403px;
+  position: relative;
+  left: 501px;
+}
+.box{
+  position: relative;
+  left: 501px;
+}
+.box1{
+  height: 100px;
+  width: 549px;
 }
