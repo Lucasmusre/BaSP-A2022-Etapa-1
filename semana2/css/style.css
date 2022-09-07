@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: #373867;
   /* border: red solid; */
 }
 .logo {
@@ -36,7 +37,7 @@ a {
   width: 360px;
   height: 800px;
   top: 143px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .container-menu {
@@ -73,6 +74,7 @@ a {
   width: 600px;
   height: 450px;
   top: 30px;
+  border-radius: 10px;
 }
 .trackgenix {
   position: relative;
@@ -97,10 +99,12 @@ a {
 .img-2 {
   width: 200px;
   height: 200px;
+  border-radius: 10px;
 }
 .img-3 {
   width: 200px;
   height: 200px;
+  border-radius: 10px;
 }
 .conteiner-imgtext2 {
   float: right;
@@ -140,7 +144,6 @@ a {
   left: 305px;
   top: 250px;
   border: solid black;
-  
 }
 .trayectory {
   font-size: 60px;
@@ -163,133 +166,235 @@ a {
   bottom: 520px;
   right: 420px;
 }
- .sectionwork3{
-    font-size: 20px;
-     position: relative;
-     top: 245px; 
-    left: 355px; 
-    width: 100%;
-    height: 700px;
+.sectionwork3 {
+  font-size: 20px;
+  position: relative;
+  top: 245px;
+  left: 355px;
+  width: 100%;
+  height: 700px;
 }
-.workwhit{
-    font-size: 60px;
-    position: relative;
-    left: 560px;
+.workwhit {
+  font-size: 60px;
+  position: relative;
+  left: 560px;
 }
-.conteiner-pcline{
-    position: relative;
-    bottom:-70px;
-    left: 100px;
+.conteiner-pcline {
+  position: relative;
+  bottom: -70px;
+  left: 100px;
 }
-.pcline{
-    position: relative;
-    bottom: 160px;
-    left: 190px;
-    width: 320px;
+.pcline {
+  position: relative;
+  bottom: 160px;
+  left: 190px;
+  width: 320px;
 }
-.develop{
-    font-size: 30px;
-    line-height: 60px;
+.develop {
+  font-size: 30px;
+  line-height: 60px;
 }
-.grouplist{
+.grouplist {
   position: relative;
   bottom: 500px;
   left: 950px;
 }
-.grouplist1{
-    position: relative;
-    bottom: 500px;
-    left: 950px;
-  }
-  .runningtake{
-    position: relative;
-    bottom: 650px;
-    left: 1100px;
-    font-size:  30px;
-    line-height: 60px;
-  }
-  .take{
-    position: relative;
-        bottom: 660px;
-        left: 1100px;
-        font-size: 30px;
-        line-height: 50px;
-  }
-  .runningtakep{
-    position: relative;
-    bottom: 650px;
-    left: 1100px;
-    font-size:  20px;
-    width: 300px;
-  }
-  .takep{
-    position: relative;
-    bottom: 650px;
-    left: 1100px;
-    font-size:  20px;
-    width: 280px;
+.grouplist1 {
+  position: relative;
+  bottom: 500px;
+  left: 950px;
 }
-.sectionfunctions{
-    border:black solid;
-    position: relative;
-    top: 242px;
-    left: 355px;
-    height: 600px;
+.runningtake {
+  position: relative;
+  bottom: 650px;
+  left: 1100px;
+  font-size: 30px;
+  line-height: 60px;
 }
-.functions{
-    font-size: 60px;
-    text-align: center;
-    position: relative;
-   right: 180px;}
-.conteiner-work2{
-    float:right;
-    position: relative;
-    right: 470px;
-    top: 30px;
+.take {
+  position: relative;
+  bottom: 660px;
+  left: 1100px;
+  font-size: 30px;
+  line-height: 50px;
 }
-.conteiner-ol{
-    font-size: 60px;
-    line-height: 100px;
-    position: relative;
-    left: 120px;
-    top:40px;
+.runningtakep {
+  position: relative;
+  bottom: 650px;
+  left: 1100px;
+  font-size: 20px;
+  width: 300px;
 }
-.conteiner-getintouch{
+.takep {
+  position: relative;
+  bottom: 650px;
+  left: 1100px;
+  font-size: 20px;
+  width: 280px;
+}
+.sectionfunctions {
+  border: black solid;
+  position: relative;
+  top: 242px;
+  left: 355px;
+  height: 600px;
+}
+.functions {
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  right: 180px;
+}
+.conteiner-work2 {
+  position: relative;
+  right: -120px;
+  top: 30px;
+}
+.conteiner-ol {
+  float: right;
+  font-size: 60px;
+  line-height: 100px;
+  position: relative;
+  right: 440px;
+  bottom: 400px;
+}
+.conteiner-getintouch {
   border-bottom: black solid;
   position: relative;
   left: 355px;
-  top:240px;
+  top: 240px;
   height: 370px;
 }
-.getintouch{
+.getintouch {
   font-size: 80px;
   text-align: center;
   position: relative;
   right: 180px;
   line-height: 120px;
 }
-.nameemail{
+.nameemail {
   height: 40px;
   width: 550px;
   position: relative;
   left: 500px;
 }
-.area{
+.area {
   font-size: 25px;
   position: relative;
-  left: 500px;}
-  
-.recourse-area{
+  left: 500px;
+}
+
+.recourse-area {
   height: 40px;
-  width: 403px;
+  width: 550px;
   position: relative;
   left: 501px;
 }
-.box{
+.box {
   position: relative;
   left: 501px;
 }
-.box1{
+.box1 {
   height: 100px;
   width: 549px;
+}
+.conteiner-six {
+  border-bottom: black solid;
+  position: relative;
+  left: 355px;
+  top: 240px;
+  height: 700px;
+}
+.conteiner-six h2 {
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  right: 180px;
+  line-height: 80px;
+  height: 200px;
+}
+.conteinerlist2 {
+  position: relative;
+  top: -80px;
+  left: 280px;
+}
+.conteiner-six ul {
+  font-size: 33px;
+  position: relative;
+  width: 390px;
+  left: 850px;
+  bottom: 520px;
+  list-style-type: disc;
+  line-height: 35px;
+}
+.sectionseven {
+  border-top: black solid;
+  position: relative;
+  left: 355px;
+  top: 238px;
+  height: 470px;
+  text-align: center;
+}
+.sectionseven h2 {
+  font-size: 60px;
+  position: relative;
+  right: 170px;
+}
+.sectionseven h3 {
+  font-size: 40px;
+}
+.sectionseven ul,
+ol {
+  font-size: 30px;
+}
+.olistordered {
+  float: left;
+  position: relative;
+  left: 250px;
+}
+
+.olist {
+  float: left;
+  width: 350px;
+  position: relative;
+  top: 70px;
+  left: 90px;
+  text-align: start;
+}
+.ulist {
+  list-style-type: disc;
+  float: right;
+  width: 350px;
+  position: relative;
+  top: 20px;
+  right: 500px;
+  text-align: start;
+}
+.ulist ul {
+  list-style-type: disc;
+  width: 350px;
+}
+.ulisth3 {
+  position: relative;
+  right: 80px;
+}
+footer {
+  padding: 10px;
+  /* border-bottom: solid black; */
+  position: relative;
+  left: 250px;
+  text-align: center;
+  top: 237px;
+  height: 50px;
+}
+.imgwork3{
+  border-radius: 10px;
+}
+.readmore{
+  position: relative;
+  left: 200px;
+}
+.readmore1{
+  position: relative;
+  left: 500px;
 }
