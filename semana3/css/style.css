@@ -3,7 +3,7 @@
   color: #373867;
   /* border: red solid; */
 }
-.logo {
+ .logo {
   width: 86px;
   height: 72px;
   position: relative;
@@ -380,8 +380,8 @@ ol {
 }
 footer {
   padding: 10px;
-  /* border-bottom: solid black; */
-  position: relative;
+  /border-bottom: solid black; */
+   position: relative;
   left: 250px;
   text-align: center;
   top: 237px;
@@ -397,4 +397,4 @@ footer {
 .readmore1 {
   position: relative;
   left: 500px;
-}
+} 
