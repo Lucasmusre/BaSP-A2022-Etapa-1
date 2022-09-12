@@ -3,13 +3,11 @@ main {
     display: flex;
     flex-direction: column;
 }
-
 .conteiner-helph3 {
     display: flex;
     justify-content: start;
     align-items: center;
 }
-
 .conteiner-helph3,
 h2 {
     font-size: 35px;
@@ -18,12 +16,10 @@ h2 {
     height: 10vh;
     padding-right: 100px;
 }
-
 .menunav {
     width: 30px;
     height: 30px;
 }
-
 .img-1 {
     width: 300px;
     border-radius: 10px;
@@ -82,7 +78,6 @@ h2 {
     font-weight: bold;
     font-size: 25px;
 }
-
 .conteiner-text2 button {
     margin: 10px;
 }
@@ -122,11 +117,14 @@ h2 {
 .sectionwork {
     display: flex;
     flex-direction: column;
-    padding: 42px;
+    padding: 30px;
+   
+}
+.conteiner-section2{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .trayectory {
     padding: 30px;
     font-weight: bold;
@@ -141,7 +139,6 @@ h2 {
     height: 200px;
     border-radius: 10px;
 }
-
 .conteiner-pwork p {
     padding: 10px;
 }
@@ -149,9 +146,9 @@ h2 {
 .sectionwork3 {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    justify-content: CENTER;
+    align-items: center;
 }
-
 .workwhit {
     display: flex;
     justify-content: center;
@@ -164,7 +161,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 .develop {
@@ -175,10 +172,9 @@ h2 {
 }
 
 .conteiner-section3 {
-    text-align: start;
-    width: 100%;
-    text-align: center;
+    padding: 30px;
 }
+
 
 .sectionfunctions {
     display: flex;
@@ -228,6 +224,16 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+.group381{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.img381{
+    width: 300px;
+    height: 300px;
 }
 
 .conteinerlist2 img {
