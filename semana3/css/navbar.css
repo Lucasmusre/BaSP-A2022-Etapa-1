@@ -1,2 +1,76 @@
 aside{
-    display: none;}
+  display: none;}
+
+/* *{bx-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    font-size: 35px;}
+
+  a {
+    text-decoration: none;
+  }
+  aside{
+    background-color: rgb(222, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height:100%; 
+    line-height: 55px;
+    text-align:start }
+
+
+  .container-one {
+    display: flex;}
+
+  
+  .container-menu {
+    border-bottom: black solid;
+  }
+  .container-info {
+    border-bottom: black solid;
+  }
+  .menu-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .search {
+    width: 30px;
+    height: 30px;
+  }
+  .space {
+    height: 30px;
+    width: 300px;
+  }
+  .icons {
+ 
+  }
+  .help {}
+.container-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.iconos{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    text-align: start;
+}
+.menumobile{
+display: none;
+}
+.container-search{
+    display: flex;
+} */
