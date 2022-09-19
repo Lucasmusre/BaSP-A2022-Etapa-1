@@ -1,9 +1,9 @@
 //Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje “Greater than 0,5” y sino un alerta con el mensaje “Lower than 0,5”.
 var number = Math.random();
 if (number >= 0.5) {
-    alert('Exercise 4.a): ' + 'Greater than 0,5');
+    alert('Exercise 4.a: ' + 'Greater than 0,5')
 }else {
-    alert('Exercise 4.a): ' + 'Lower than 0,5');
+    alert('Exercise 4.a: ' + 'Lower than 0,5');
 };
 //Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
 /*“Bebe” si la edad es menor a 2 años;
@@ -15,17 +15,17 @@ if (number >= 0.5) {
 “Anciano” si es mayor a 75 años*/
 var age = Math.floor(Math.random() * 100);
 if (age < 2) {
-    alert('Exercise 4.b): ' + 'Bebé');
+    alert('Exercise 4.b: ' + 'Bebé');
 }else if (age <= 12){
-    alert('Exercise 4.b): ' + 'Niño');
+    alert('Exercise 4.b: ' + 'Niño');
 }else if (age <= 19){
-    alert('Exercise 4.b): ' + 'Adolescente');
+    alert('Exercise 4.b: ' + 'Adolescente');
 } else if (age <= 30) {
-    alert('Exercise 4.b): ' + 'Joven');
+    alert('Exercise 4.b: ' + 'Joven');
 }else if (age <= 60) {
-    alert('Exercise 4.b): ' + 'Adulto');
+    alert('Exercise 4.b: ' + 'Adulto');
 }else if (age <= 75){
-    alert('Exercise 4.b): ' + 'Adulto mayor');
+    alert('Exercise 4.b: ' + 'Adulto mayor');
 }else if (age > 75) {
-    alert('Exercise 4.b): ' + 'Anciano');
+    alert('Exercise 4.b: ' + 'Anciano');
 }
