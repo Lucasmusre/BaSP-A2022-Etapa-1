@@ -9,12 +9,17 @@
 .menuhelp {
     padding-right: 10px;}
 .menudots {
-    display: flex;
-    flex-direction: column;}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;}
 .menu-dots {
     padding-top: 15px;}
-.backmenu {
-    display: none;}
+.backmenu{
+    display: none;
+    width: 30px;
+} 
 .img-1 {
     width: 300px;
     height: 250px;
@@ -80,7 +85,7 @@
     margin: 10px;}
 .sectionwork {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     padding: 30px;}
 .conteiner-section2 {
     display: flex;
@@ -121,12 +126,11 @@
     font-weight: bold;}
 .conteiner-pc {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-bottom: 80px;
-    width: 100%;}
+    text-align: center;;}
 .conteiner-section3 {
     padding: 35px;}
 .sectionfunctions {
@@ -154,15 +158,36 @@ h2 {
     align-items: center;}
 .nameemail {
     height: 20px;
-    width: 300px;}
+    width: 340px;}
 .conteiner-area {
-    width: 300px;}
-.conteiner-six {
+    width: 100%;}
+.box1{
+    width: 345px;
+    margin-bottom: 20px;}
+.recourse-area{
+    width: 350px;}
+.conteiner-area{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    width: 60px;}
+.conteiner-six {
+    display: flex;
+    flex-direction: column;
     padding: 10px;}
+.conteiner-title{
+    text-align: center;
+padding: 10px;
+}
+.conteiner-sixdiv{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;}
+.group-treochentuno{
+    
+        width: 100%;
+        margin: 20px 30px;}
 .img381 {
     width: 200px;
     height: 200px;}
@@ -178,7 +203,7 @@ h2 {
 .conteiner-sectionseven {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;}
 .sectionseven h2 {
     text-align: center;
@@ -197,45 +222,3 @@ h2 {
     text-align: start;
     width: 200px;
     font-size: 16px;}
-@media screen and (min-width:768px) {
-    .conteiner-imgtext {
-        padding: 30px;
-        max-width: 40%;
-    }
-    .conteiner-imgtext2 {
-        order: 3;
-        max-width: 40%;
-        padding: 50px;
-    }
-    .conteiner-imgtext3 {
-        max-width: 40%
-    }
-
-    .section-fuctions {
-        display: flex;
-        padding: 50px;
-    }
-
-    .conteiner-work2 {
-        padding-right: 40px;
-    }
-
-    .functions {
-        padding-top: 60px;
-    }
-
-    .group-treochentuno {
-        max-width: 40%;
-    }
-
-    .conteinerlist2 li {
-        max-width: 45%;
-    }
-    .conteiner-pc {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 50%;
-    }
-}

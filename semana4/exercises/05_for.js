@@ -1,11 +1,10 @@
 //Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript para mostrar una alerta utilizando cada una de las palabras.
 var pets = ['dog','cat','tortoise','parrots','rabbit'];
-for ( i = 0; i <=5; i++){
+for ( i = 0; i <=4; i++){
     alert('Exercise 5.a: ' + pets[i]);}
 //Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta por cada palabra modificada.
 for ( i = 0; i < pets.length; i++) {
-    var myPets;
-    myPets = pets[i].substring(0,1).toUpperCase() + pets[i].substring(1).toLowerCase();
+    var myPets = pets[i].substring(0,1).toUpperCase() + pets[i].substring(1).toLowerCase();
     alert('Exercise 5.b: ' + myPets);
 }
 //Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a) recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence. Al final mostrar una única alerta con la cadena completa.

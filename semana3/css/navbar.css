@@ -1,2 +1,45 @@
-aside{
-  display: none;}
+.container-one {
+  position: fixed;
+  background-color: #c4c4c4;
+  text-align: center;
+  width: 23%;
+  height: 100%;
+
+}
+.container-search{
+  display: flex;
+
+}
+.container-menu {
+  border-bottom: black solid;
+}
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: black solid;
+}
+.menu-link {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+
+}
+.search {
+  width: 28px;
+  height: 28px;
+  margin: 5px;
+}
+.space {
+  bottom: 7px;
+  width: 150px;
+  margin: 5px;
+}
+.back{
+  height: 30px;
+  margin: 5px;
+}
+.icons {
+display: flex;
+}
