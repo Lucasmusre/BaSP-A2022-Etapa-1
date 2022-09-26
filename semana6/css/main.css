@@ -1,5 +1,4 @@
-* {
-    font-family: 'Roboto', sans-serif;}
+
 .conteiner-menudots {
     display: flex;
     justify-content: space-between;
@@ -175,7 +174,8 @@ h2 {
 .conteiner-six {
     display: flex;
     flex-direction: column;
-    padding: 10px;}
+    padding: 10px;;}
+
 .conteiner-title{
     text-align: center;
 padding: 10px;
@@ -183,9 +183,11 @@ padding: 10px;
 .conteiner-sixdiv{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;}
+justify-content: center;
+text-align: center;
+width: 100%;}
 .group-treochentuno{
-    
+
         width: 100%;
         margin: 20px 30px;}
 .img381 {
@@ -195,7 +197,11 @@ justify-content: space-between;}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    width: 100%;}
+    .conteinerlist2 ,li {
+        width:100%;
+    }
 .sectionseven {
     display: flex;
     flex-direction: column;
@@ -222,3 +228,7 @@ justify-content: space-between;}
     text-align: start;
     width: 200px;
     font-size: 16px;}
+footer{
+   text-align: center; 
+   padding-top: 50px;}
+   
