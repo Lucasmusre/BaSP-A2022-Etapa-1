@@ -68,12 +68,12 @@
 display: none;
 }
 .visible{
-display: initial !important;
+display: flex !important;
 }
 #errorPass{
     display: none;
 }
-error-text{
+.error-text{
     font-size: 10px;
     text-align: left;
     color: rgb(44, 27, 42);
